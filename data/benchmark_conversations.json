@@ -1,0 +1,112 @@
+[
+  {
+    "conversation_id": "conv-01",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "Bạn còn nhớ tôi thích ngôn ngữ lập trình nào không?",
+        "expected_source": "long_term",
+        "expected_keywords": ["python"]
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv-02",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "Giải thích ngắn gọn LangGraph là gì.",
+        "expected_source": "semantic",
+        "expected_keywords": ["langgraph", "workflow", "stateful"]
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv-03",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "Lần benchmark trước mình từng gặp sự cố gì với Redis?",
+        "expected_source": "episodic",
+        "expected_keywords": ["redis", "khởi động", "benchmark"]
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv-04",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "ConversationBufferMemory dùng để làm gì?",
+        "expected_source": "semantic",
+        "expected_keywords": ["short-term", "lịch sử", "buffer"]
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv-05",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "Theo hồ sơ của tôi, bạn nên trả lời theo phong cách nào?",
+        "expected_source": "long_term",
+        "expected_keywords": ["ngắn gọn", "ví dụ thực tế"]
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv-06",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "Episodic memory trong lab này được lưu kiểu gì?",
+        "expected_source": "semantic",
+        "expected_keywords": ["json", "summary", "outcome"]
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv-07",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "Bài học nào rút ra từ lần trước về cách route câu hỏi kiến thức?",
+        "expected_source": "episodic",
+        "expected_keywords": ["semantic", "route", "kiến thức"]
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv-08",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "Tại sao ChromaDB hợp cho semantic memory?",
+        "expected_source": "semantic",
+        "expected_keywords": ["vector", "embedding", "similarity"]
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv-09",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "Hãy nhắc lại mục tiêu dự án tôi đang làm.",
+        "expected_source": "long_term",
+        "expected_keywords": ["agent", "memory", "langgraph"]
+      }
+    ]
+  },
+  {
+    "conversation_id": "conv-10",
+    "turns": [
+      {
+        "turn_id": "t1",
+        "user": "Quy tắc eviction nên ưu tiên giữ lại gì trước?",
+        "expected_source": "semantic",
+        "expected_keywords": ["system prompt", "user query", "memory"]
+      }
+    ]
+  }
+]

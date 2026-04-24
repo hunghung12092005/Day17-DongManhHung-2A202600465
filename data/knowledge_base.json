@@ -1,0 +1,37 @@
+[
+  {
+    "id": "kb-1",
+    "text": "LangGraph là framework để xây workflow stateful cho agent. Nó cho phép định nghĩa graph node, state transition và memory-aware execution.",
+    "metadata": {"topic": "langgraph"}
+  },
+  {
+    "id": "kb-2",
+    "text": "ConversationBufferMemory là short-term memory trong LangChain, dùng để giữ lịch sử hội thoại gần nhất dưới dạng message buffer.",
+    "metadata": {"topic": "short-term"}
+  },
+  {
+    "id": "kb-3",
+    "text": "Redis phù hợp cho long-term memory vì hỗ trợ key-value nhanh, lưu user profile, preference và facts cần truy xuất qua nhiều phiên.",
+    "metadata": {"topic": "redis"}
+  },
+  {
+    "id": "kb-4",
+    "text": "Episodic memory thường lưu bài học và sự kiện đã xảy ra. Dạng JSON log là cách đơn giản để lưu summary, tags và outcome của trải nghiệm cũ.",
+    "metadata": {"topic": "episodic"}
+  },
+  {
+    "id": "kb-5",
+    "text": "ChromaDB là vector database nhẹ, phù hợp cho semantic memory vì có thể lưu tri thức dưới dạng embedding và truy xuất theo similarity.",
+    "metadata": {"topic": "chroma"}
+  },
+  {
+    "id": "kb-6",
+    "text": "Priority-based eviction nên giữ system prompt và user query ở mức ưu tiên cao nhất, tiếp theo là memory retrieval quan trọng, sau đó mới đến lịch sử hội thoại cũ.",
+    "metadata": {"topic": "eviction"}
+  },
+  {
+    "id": "kb-7",
+    "text": "Token efficiency có thể đo bằng lượng relevance đạt được trên mỗi token đã sử dụng. Mục tiêu là tăng chất lượng mà không tăng prompt quá lớn.",
+    "metadata": {"topic": "benchmark"}
+  }
+]

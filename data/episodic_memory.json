@@ -1,0 +1,68 @@
+[
+  {
+    "summary": "Trong lần benchmark trước, agent gặp lỗi khi Redis chưa khởi động.",
+    "tags": [
+      "redis",
+      "benchmark",
+      "setup"
+    ],
+    "outcome": "Cần kiểm tra Redis health trước khi chạy benchmark."
+  },
+  {
+    "summary": "Agent từng trả lời tốt hơn khi ưu tiên semantic memory cho câu hỏi kiến thức.",
+    "tags": [
+      "semantic",
+      "routing",
+      "knowledge"
+    ],
+    "outcome": "Nên route câu hỏi factual sang semantic memory trước."
+  },
+  {
+    "summary": "Lần benchmark trước mình từng gặp sự cố gì với Redis?",
+    "tags": [
+      "user_query",
+      "reflection"
+    ],
+    "outcome": "Dựa trên episodic memory: You are a memory-aware AI assistant. Use retrieved memory when it is relevant. If memory is missing, say so briefly instead of hallucinating. Prefer concise Vietnamese answers with specific deta"
+  },
+  {
+    "summary": "Bài học nào rút ra từ lần trước về cách route câu hỏi kiến thức?",
+    "tags": [
+      "user_query",
+      "reflection"
+    ],
+    "outcome": "Dựa trên episodic memory: You are a memory-aware AI assistant. Use retrieved memory when it is relevant. If memory is missing, say so briefly instead of hallucinating. Prefer concise Vietnamese answers with specific deta"
+  },
+  {
+    "summary": "Lần benchmark trước mình từng gặp sự cố gì với Redis?",
+    "tags": [
+      "user_query",
+      "reflection"
+    ],
+    "outcome": "Dựa trên episodic memory: Lần benchmark trước mình từng gặp sự cố gì với Redis? Outcome: Dựa trên episodic memory: You are a memory-aware AI assistant. Use retrieved memory when it is relevant. If memory is missing, say "
+  },
+  {
+    "summary": "Bài học nào rút ra từ lần trước về cách route câu hỏi kiến thức?",
+    "tags": [
+      "user_query",
+      "reflection"
+    ],
+    "outcome": "Dựa trên episodic memory: Bài học nào rút ra từ lần trước về cách route câu hỏi kiến thức? Outcome: Dựa trên episodic memory: You are a memory-aware AI assistant. Use retrieved memory when it is relevant. If memory is mi"
+  },
+  {
+    "summary": "Lần benchmark trước mình từng gặp sự cố gì với Redis?",
+    "tags": [
+      "user_query",
+      "reflection"
+    ],
+    "outcome": "Dựa trên episodic memory: Lần benchmark trước mình từng gặp sự cố gì với Redis? Outcome: Dựa trên episodic memory: Lần benchmark trước mình từng gặp sự cố gì với Redis? Outcome: Dựa trên episodic memory: You are a memory"
+  },
+  {
+    "summary": "Bài học nào rút ra từ lần trước về cách route câu hỏi kiến thức?",
+    "tags": [
+      "user_query",
+      "reflection"
+    ],
+    "outcome": "Dựa trên episodic memory: Bài học nào rút ra từ lần trước về cách route câu hỏi kiến thức? Outcome: Dựa trên episodic memory: Bài học nào rút ra từ lần trước về cách route câu hỏi kiến thức? Outcome: Dựa trên episodic me"
+  }
+]
